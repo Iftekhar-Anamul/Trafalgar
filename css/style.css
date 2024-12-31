@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #458ff6;
+  --secondary-color: #7d7987;
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  font-family: "Mulish", serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+/* header section s  */
+header {
+  padding-top: 50px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-section .logo img {
+  width: 160px;
+  height: 41px;
+}
+.menu-items ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.menu-items ul li {
+  list-style: none;
+  color: rgb(31, 21, 52, 0.5);
+}
+.menu-items ul li a {
+  font-size: 18px;
+  color: rgb(31, 21, 52, 0.5);
+  font-weight: 700;
+  transition: all linear 0.4s;
+}
+
+.menu-items ul li a:hover {
+  color: #1f1534;
+}
+
+.header-section .hambarger-icon {
+  display: none;
+}
+.header-section .hambarger-icon {
+  font-size: 30px;
+}
