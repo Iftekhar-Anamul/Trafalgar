@@ -24,6 +24,15 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
+  .healthcare-section {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -57,6 +66,15 @@
   }
   .service-right-modal {
     z-index: 999;
+  }
+  .healthcare-section {
+    flex-direction: column;
+  }
+  .image {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
   }
 }
 /* .hero-content {

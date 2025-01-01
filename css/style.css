@@ -212,3 +212,46 @@ button.service-btn {
 .service-right-modal img {
   width: 100%;
 }
+
+/* service section ends here */
+
+/* healthcare section and download app section start here  */
+#healthcare {
+  margin: 200px 0;
+}
+.healthcare-section {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  justify-content: space-between;
+}
+.image {
+  width: 50%;
+}
+.image > img {
+  width: 100%;
+}
+.content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content > span {
+  border: 1px solid var(--black);
+  width: 56px;
+}
+
+.content > p {
+  margin-bottom: 40px;
+}
+
+/* download app sec s */
+.download-app-section {
+  flex-direction: row-reverse;
+}
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
