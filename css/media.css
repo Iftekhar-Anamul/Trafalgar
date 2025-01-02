@@ -53,6 +53,12 @@
   .dotted {
     gap: 5px;
   }
+  .blog-section {
+    max-width: 92%;
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -116,13 +122,13 @@
   .dotted {
     gap: 5px;
   }
+  .blog-section {
+    max-width: 95%;
+  }
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-/* .hero-content {
-  width: 50%;
-}
-.hero-img {
-  width: 50%;
-} */
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (min-width: 768px) and (max-width: 990.98px) {
@@ -154,6 +160,9 @@
   }
   .testmo-person {
     justify-content: center;
+  }
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
