@@ -36,6 +36,11 @@ h4 {
   font-weight: 700;
   line-height: 32px;
 }
+h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+}
 p {
   font-size: 18px;
   font-weight: 300;
@@ -451,4 +456,72 @@ span.blog-span {
 .btn:hover {
   background-color: var(--primary-color);
   color: var(--white);
+}
+
+/* footer section start here */
+
+#footer {
+  padding: 120px 0;
+  /* background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+  background: rgb(103, 195, 243);
+  background: linear-gradient(
+    45deg,
+    rgba(103, 195, 243, 1) 0%,
+    rgba(90, 152, 242, 1) 100%
+  );
+  color: white;
+  position: relative;
+}
+.footer-section {
+  display: flex;
+  gap: 145px;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-logo > .copy-right {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer-links {
+  /* width: 65%; */
+  display: flex;
+  gap: 120px;
+}
+.link-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.link-sec .link-sec-items > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link-sec .link-sec-items ul li {
+  list-style: none;
+}
+
+/* footer modal */
+
+.footer-modal img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.footer-modal .f-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer-modal .f-right {
+  position: absolute;
+  top: -20%;
+  right: 5%;
+  z-index: 999;
 }
